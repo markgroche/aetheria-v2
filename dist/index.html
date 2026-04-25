@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHERIA V2</title>
+    <style>
+        body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; font-family: 'Inter', sans-serif; }
+        #app { width: 100%; height: 100%; }
+        #overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; z-index: 10; background: rgba(0,0,0,0.8); transition: opacity 2s ease; }
+        #splash { text-align: center; color: #00FFFF; }
+        h1 { font-weight: 100; letter-spacing: 2rem; text-transform: uppercase; margin-bottom: 2rem; }
+        button { background: transparent; border: 1px solid #00FFFF; color: #00FFFF; padding: 1rem 3rem; text-transform: uppercase; letter-spacing: 0.5rem; cursor: pointer; transition: all 0.5s ease; }
+        button:hover { background: rgba(0,255,255,0.1); box-shadow: 0 0 30px #00FFFF; }
+        .hidden { opacity: 0; pointer-events: none; }
+    </style>
+  <script type="module" crossorigin src="/assets/index-TKpELtD3.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <div id="overlay">
+        <div id="splash">
+            <h1>Aetheria</h1>
+            <button id="start-btn">Initialize Experience</button>
+        </div>
+    </div>
+</body>
+</html>

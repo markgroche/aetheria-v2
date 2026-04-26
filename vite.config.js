@@ -1,9 +1,5 @@
 import { defineConfig } from 'vite';
-
 export default defineConfig({
-  resolve: {
-    alias: {
-      'three/addons/': 'three/examples/jsm/'
-    }
-  }
+base: '/aetheria-v2/',
+resolve: { alias: { 'three/addons/': 'three/examples/jsm/' } }
 });

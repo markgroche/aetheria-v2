@@ -6,8 +6,8 @@ import { UnrealBloomPass } from 'three/examples/jsm/postprocessing/UnrealBloomPa
 
 // --- CONFIG ---
 const TEXTURES = {
-    ceres: '/textures/ceres.jpg',
-    stars: '/textures/stars_8k.jpg'
+    ceres: 'textures/ceres.jpg',
+    stars: 'textures/stars_8k.jpg'
 };
 
 // Curation of "Cinematic Cosmic" hues
